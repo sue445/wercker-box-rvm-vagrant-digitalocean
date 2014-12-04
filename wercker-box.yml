@@ -2,7 +2,6 @@ name: rvm-vagrant-aws
 version: 0.2.0
 inherits: wercker/rvm@2.3.0
 type: main
-platform: ubuntu@12.04
 description: wercker box for running rvm and vagrant-aws
 keywords:
   - rvm
