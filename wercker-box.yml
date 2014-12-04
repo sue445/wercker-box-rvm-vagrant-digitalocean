@@ -4,6 +4,7 @@ inherits: wercker/rvm@2.3.0
 type: main
 description: wercker box for running rvm and vagrant-aws
 keywords:
+  - ruby
   - rvm
   - vagrant
   - aws
