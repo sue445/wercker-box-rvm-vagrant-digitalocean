@@ -17,4 +17,4 @@ script: |
   vagrant plugin install vagrant-aws
   # a workaround of vagrant-aws
   # https://github.com/mitchellh/vagrant-aws/issues/327#issuecomment-67313102
-  sudo cp ~/.vagrant.d/gems/gems/excon-0.42.1/data/cacert.pem /etc/ssl/certs/ca-certificates.crt
+  sudo cp /etc/ssl/certs/ca-certificates.crt /opt/vagrant/embedded/cacert.pem
