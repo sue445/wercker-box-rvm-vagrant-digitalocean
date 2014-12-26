@@ -3,3 +3,7 @@
 # wercker-box-rvm-vagrant-aws
 
 A Wercker box for running rvm and vagrant-aws
+
+## License
+
+[The MIT License (MIT)](http://masutaka.mit-license.org/)
