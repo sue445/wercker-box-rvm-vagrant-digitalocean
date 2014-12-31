@@ -5,7 +5,7 @@
 A Wercker box for running rvm and vagrant-aws
 
 * Ubuntu-12.04
-* ruby-2.1.5 on rvm
+* ruby-2.2.0 on rvm
     * See [wercker/rvm@2.3.0](https://github.com/wercker/box-rvm/tree/09cb86d1b04c901b1caa3156303cf80e23f146da)
 * vagrant-1.7.1
 
