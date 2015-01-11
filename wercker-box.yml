@@ -1,5 +1,5 @@
 name: rvm-vagrant-aws
-version: 1.1.1
+version: 1.2.0
 inherits: wercker/rvm@2.4.0
 type: main
 platform: ubuntu@12.04
@@ -11,10 +11,7 @@ keywords:
   - aws
 
 script: |
-  VAGRANT_VERSION=1.7.1
+  VAGRANT_VERSION=1.7.2
   wget https://dl.bintray.com/mitchellh/vagrant/vagrant_${VAGRANT_VERSION}_x86_64.deb
   sudo dpkg -i vagrant_${VAGRANT_VERSION}_x86_64.deb
   vagrant plugin install vagrant-aws
-  # a workaround of vagrant-aws
-  # https://github.com/mitchellh/vagrant-aws/issues/327#issuecomment-67313102
-  sudo cp /etc/ssl/certs/ca-certificates.crt /opt/vagrant/embedded/cacert.pem
