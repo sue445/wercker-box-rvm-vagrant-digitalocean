@@ -15,6 +15,3 @@ script: |
   wget https://dl.bintray.com/mitchellh/vagrant/vagrant_${VAGRANT_VERSION}_x86_64.deb
   sudo dpkg -i vagrant_${VAGRANT_VERSION}_x86_64.deb
   vagrant plugin install vagrant-aws
-  # a workaround of vagrant-aws
-  # https://github.com/mitchellh/vagrant-aws/issues/327#issuecomment-67313102
-  sudo cp /etc/ssl/certs/ca-certificates.crt /opt/vagrant/embedded/cacert.pem
