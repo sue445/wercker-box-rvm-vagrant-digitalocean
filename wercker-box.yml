@@ -1,14 +1,14 @@
-name: rvm-vagrant-aws
-version: 1.2.0
+name: rvm-vagrant-digitalocean
+version: 1.0.0
 inherits: wercker/rvm@2.4.0
 type: main
 platform: ubuntu@12.04
-description: wercker box for running rvm and vagrant-aws
+description: wercker box for running rvm and vagrant-digitalocean
 keywords:
   - ruby
   - rvm
   - vagrant
-  - aws
+  - digitalocean
 
 script: |
   VAGRANT_VERSION=1.7.2
