@@ -1,4 +1,4 @@
-[![wercker status](https://app.wercker.com/status/4e596749003e7e2c77d820e2e40acb8c/m "wercker status")](https://app.wercker.com/project/bykey/4e596749003e7e2c77d820e2e40acb8c)
+[![wercker status](https://app.wercker.com/status/ab167b2def3fb831d6f15dd2a42410ee/m/master "wercker status")](https://app.wercker.com/project/bykey/ab167b2def3fb831d6f15dd2a42410ee)
 
 # wercker-box-rvm-vagrant-digitalocean
 
