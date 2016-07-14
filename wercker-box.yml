@@ -1,6 +1,6 @@
 name: rvm-vagrant-digitalocean
 version: 1.0.0
-inherits: wercker/rvm@6.0.0
+inherits: wercker/rvm@8.0.0
 type: main
 platform: ubuntu@12.04
 description: wercker box for running rvm and vagrant-digitalocean
