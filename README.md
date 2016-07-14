@@ -8,7 +8,7 @@ A Wercker box for running rvm and vagrant-digitalocean
 * Ubuntu-12.04
 * ruby-2.3.0 on rvm
     * See [wercker/rvm@6.0.0](https://github.com/wercker/box-rvm/tree/95c6cbd1ddb459de1e6dd03860cf14e1639b5f85)
-* vagrant-1.8.1
+* vagrant-1.8.4
 
 ## License
 
