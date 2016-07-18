@@ -10,6 +10,9 @@ A Wercker box for running rvm and vagrant-digitalocean
     * See [wercker/rvm@6.0.0](https://github.com/wercker/box-rvm/tree/8cfd58e8cdfb6b3bb309a3ecabd4a64690ad3017)
 * vagrant-1.8.4
 
+## CHANGELOG
+https://github.com/sue445/wercker-box-rvm-vagrant-digitalocean/blob/master/CHANGELOG.md
+
 ## License
 
 [The MIT License (MIT)](http://sue445.mit-license.org/)
